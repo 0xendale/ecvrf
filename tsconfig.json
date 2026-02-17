@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@abis/*": ["abis/*"],
+      "@config/*": ["config/*"],
+      "@jobs/*": ["jobs/*"],
+      "@utils/*": ["utils/*"],
+      "@integration-services": ["integration-services/index.ts"],
+      "@integration-services/*": ["integration-services/*"]
+    }
+  },
+  "exclude": ["**/*.mjs"],
+  "include": ["./**/*.ts"]
+
+}
+
